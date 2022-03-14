@@ -1,7 +1,7 @@
-h3
-{
-  font-size: 25px !important;
+h3{
+    font-size: 25px !important;
+    color: black !important;
 }
-canvas {
-    border:1px solid black;
+canvas{
+    border: 4px black solid;
 }
