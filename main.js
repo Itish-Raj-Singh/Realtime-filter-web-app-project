@@ -33,8 +33,8 @@ function gotPose(results){
     if(results.length > 0){
         console.log(results);
         console.log("nose x: "+results[0].pose.nose.x);
-        mustache_x = results[0].pose.nose.x-30;
+        mustache_x = results[0].pose.nose.x-20;
         console.log("nose y: "+results[0].pose.nose.y);
-        mustache_y = results[0].pose.nose.y;
+        mustache_y = results[0].pose.nose.y-5;
     };
 }
